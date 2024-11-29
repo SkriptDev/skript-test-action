@@ -40,7 +40,7 @@ if jdk_version is not None and jdk_version != "" and not jdk_version.isspace():
         if sdkman_install_process.returncode != 0:
             print(f"Failed to install JDK {jdk_version}")
             exit(1)
-skript_repo_git_url = "https://github.com/SkriptLang/Skript.git"
+skript_repo_git_url = "https://github.com/SkriptDev/Skript.git"
 skript_repo_path = Path("/skript")
 skript_test_directory = skript_repo_path / "src" / "test" / "skript" / "tests"
 custom_test_directory = skript_test_directory / "custom"
